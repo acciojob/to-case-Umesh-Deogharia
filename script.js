@@ -8,7 +8,6 @@ function toCase(text) {
 	let str2 = text.toLowerCase();
 	return str2.concat(`-${str1}`);
 }
-
 // DO not change the code below
 const text = prompt("Enter text:");
 alert(toCase(text));
